@@ -1,0 +1,77 @@
+﻿@model SaveOrderViewModel
+
+@{
+    ViewBag.Title = Model.Id != 0 ? "Новый заказ" : "Заказ " + Model.Id;
+    Layout = "_Layout";
+    var errorMessage = TempData["ErrorMessage"] as string;
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger">
+            @Html.Raw(errorMessage)
+        </div>
+    }
+}
+
+<h2>@(Model.Id != 0 ? "Редактировать" : "Добавить") заказ</h2>
+<br>
+@using (Html.BeginForm("Save", "Order", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationMessageFor(model => model.OrderItems, "", new { @class = "text-danger" })
+    <div class="row mb-3">
+        <div class="form-group col-md-4">
+            @Html.LabelFor(model => model.OrderNumber)
+            @Html.EditorFor(model => model.OrderNumber, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.OrderNumber, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-group col-md-4">
+            @Html.LabelFor(model => model.SelectedProvider)
+            @Html.DropDownListFor(model => model.SelectedProvider, Model.Providers, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group col-md-4">
+            @Html.LabelFor(model => model.OrderDate)
+            @Html.EditorFor(model => model.OrderDate, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.OrderDate, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div id="orderItemsContainer">
+        @await Html.PartialAsync("_orderItemPartial")
+    </div>
+
+    <button type="button" class="btn btn-primary btn-sm mb-3" onclick="addOrderItem()">Добавить элемент заказа</button>
+
+    <div class="form-group row">
+        <div class="col-3 mb-3">
+            <button type="submit" class="btn btn-success">@(Model.Id != 0 ? "Обновить" : "Создать")</button>
+            <a asp-action="Index" asp-controller="Order" class="btn btn-dark">Назад</a>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script type="text/javascript">
+        function addOrderItem() {
+                    var container = $("#orderItemsContainer");
+                    var index = container.children(".order-item-row").length;
+                    var newRow = container.children(".order-item-row").last().clone(true, true);
+                    newRow.find("input").val("");
+                    newRow.find("input").each(function() {
+                        var currentName = $(this).attr("name");
+                        var newName = currentName.replace(/\[\d+\]/, "[" + index + "]");
+                        $(this).attr("name", newName);
+                    });
+                    
+                    container.append(newRow);
+                }
+
+        function removeOrderItem(button) {
+            $(button).closest(".order-item-row").remove();
+        }
+
+        $(document).ready(function () {
+            $('#OrderDate').flatpickr({ dateFormat: 'd.m.Y H:i', enableTime: true, time_24hr: true, maxDate: "today", defaultDate: 'today' });
+        });
+    </script>
+}

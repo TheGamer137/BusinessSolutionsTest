@@ -1,0 +1,11 @@
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Core\bin\Debug\net8.0\BusinessSolutionsTest.Core.deps.json
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Core\bin\Debug\net8.0\BusinessSolutionsTest.Core.dll
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Core\bin\Debug\net8.0\BusinessSolutionsTest.Core.pdb
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Core\obj\Debug\net8.0\BusinessSolutionsTest.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Core\obj\Debug\net8.0\BusinessSolutionsTest.Core.AssemblyInfoInputs.cache
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Core\obj\Debug\net8.0\BusinessSolutionsTest.Core.AssemblyInfo.cs
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Core\obj\Debug\net8.0\BusinessSolutionsTest.Core.csproj.CoreCompileInputs.cache
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Core\obj\Debug\net8.0\BusinessSolutionsTest.Core.dll
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Core\obj\Debug\net8.0\refint\BusinessSolutionsTest.Core.dll
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Core\obj\Debug\net8.0\BusinessSolutionsTest.Core.pdb
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Core\obj\Debug\net8.0\ref\BusinessSolutionsTest.Core.dll

@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    @await Html.PartialAsync("_metaTagsPartial")
+    <title>@ViewData["Title"] - BusinessSolutionsTest</title>
+    @await Html.PartialAsync("_cssPartial")
+</head>
+<body>
+@await Html.PartialAsync("_headerPartial")
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+@await Html.PartialAsync("_footerPartial")
+@await Html.PartialAsync("_scriptsPartial")
+@await RenderSectionAsync("Scripts", false)
+</body>
+</html>

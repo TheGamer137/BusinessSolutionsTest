@@ -1,0 +1,17 @@
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\bin\Debug\net8.0\BusinessSolutionsTest.Infrastructure.deps.json
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\bin\Debug\net8.0\BusinessSolutionsTest.Infrastructure.runtimeconfig.json
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\bin\Debug\net8.0\BusinessSolutionsTest.Infrastructure.dll
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\bin\Debug\net8.0\BusinessSolutionsTest.Infrastructure.pdb
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\bin\Debug\net8.0\BusinessSolutionsTest.Core.dll
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\bin\Debug\net8.0\BusinessSolutionsTest.Core.pdb
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\obj\Debug\net8.0\BusinessSolutionsTest.Infrastructure.csproj.AssemblyReference.cache
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\obj\Debug\net8.0\BusinessSolutionsTest.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\obj\Debug\net8.0\BusinessSolutionsTest.Infrastructure.AssemblyInfoInputs.cache
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\obj\Debug\net8.0\BusinessSolutionsTest.Infrastructure.AssemblyInfo.cs
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\obj\Debug\net8.0\BusinessSolutionsTest.Infrastructure.csproj.CoreCompileInputs.cache
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\obj\Debug\net8.0\BusinessSolutionsTest.Infrastructure.csproj.CopyComplete
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\obj\Debug\net8.0\BusinessSolutionsTest.Infrastructure.dll
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\obj\Debug\net8.0\refint\BusinessSolutionsTest.Infrastructure.dll
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\obj\Debug\net8.0\BusinessSolutionsTest.Infrastructure.pdb
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\obj\Debug\net8.0\BusinessSolutionsTest.Infrastructure.genruntimeconfig.cache
+C:\MyProjects\C#\BusinessSolutionsTest\BusinessSolutionsTest.Infrastructure\obj\Debug\net8.0\ref\BusinessSolutionsTest.Infrastructure.dll

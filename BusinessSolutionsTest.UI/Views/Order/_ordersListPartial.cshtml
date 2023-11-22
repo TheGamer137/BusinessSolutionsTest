@@ -1,0 +1,19 @@
+﻿@model OrderViewModel
+
+<table class="table table-hover" id="orderTable">
+    <thead>
+    <tr>
+        <th>Номер заказа</th>
+        <th>Дата заказа</th>
+        <th>Поставщик</th>
+    </tr>
+    </thead>
+    @foreach (var order in Model.Orders)
+    {
+        <tr data-order-id="@order.Id" class="order-row">
+            <td>@order.Number</td>
+            <td>@order.Date.ToString("dd.MM.yyyy")</td>
+            <td>@order.Provider.Name</td>
+        </tr>
+    }
+</table>
