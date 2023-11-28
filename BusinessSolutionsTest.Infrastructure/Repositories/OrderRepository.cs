@@ -1,4 +1,4 @@
-﻿using System.Linq.Expressions;
+using System.Linq.Expressions;
 using BusinessSolutionsTest.Core.Models;
 using BusinessSolutionsTest.Core.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -27,11 +27,11 @@ public class OrderRepository : IOrderRepository
 
     public async Task SaveOrder(Order? order)
     {
+        order.Provider = GetProviderByName(order.Provider.Name);
         if (order.Id > 0)
             _context.Update(order);
         else
         {
-            order.Provider = GetProviderByName(order.Provider.Name);
             _context.Add(order);
         }
         await _context.SaveChangesAsync();
